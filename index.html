@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ffeff7" />
+  <title>Даяна, я тебя люблю ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div><div class="cursor-glow" id="glow"></div><div id="hearts" aria-hidden="true"></div>
+  <nav><a class="brand" href="#top">Д<span>♡</span></a><div class="nav-links"><a href="#why">Почему ты</a><a href="#game">Игра</a><a href="#letter">Письмо</a></div><button class="sound" id="sound" aria-label="Включить музыку"><span>♪</span></button></nav>
+  <main id="top">
+    <section class="hero">
+      <div class="orb orb-a"></div><div class="orb orb-b"></div>
+      <p class="eyebrow reveal">маленький сайт о большой любви</p>
+      <h1 class="reveal">Даяна<br><em>Шкребко</em></h1>
+      <p class="lead reveal">Если бы меня спросили, где моё любимое место,<br>я бы ответил: <strong>рядом с тобой.</strong></p>
+      <a class="love-btn reveal" href="#why"><span>Узнать, почему</span><b>♡</b></a>
+      <div class="scroll">листай нежно <i></i></div>
+    </section>
+
+    <section class="marquee" aria-label="Послание"><div>ТЫ — МОЁ САМОЕ КРАСИВОЕ «НАВСЕГДА» <span>♥</span> ТЫ — МОЁ САМОЕ КРАСИВОЕ «НАВСЕГДА» <span>♥</span></div></section>
+
+    <section class="reasons" id="why">
+      <div class="section-head reveal"><p>01 / ПОЧЕМУ ИМЕННО ТЫ</p><h2>Люблю тебя<br><em>за всё, что ты есть</em></h2></div>
+      <div class="cards">
+        <article class="card reveal"><div class="icon sparkle">✦</div><span>01</span><h3>За твою улыбку</h3><p>Она умеет превращать самый обычный день в тот, который хочется запомнить.</p></article>
+        <article class="card feature reveal"><div class="icon pulse">♥</div><span>02</span><h3>За твоё сердце</h3><p>Такое большое, тёплое и настоящее. Рядом с тобой я могу быть собой.</p></article>
+        <article class="card reveal"><div class="icon orbit">☾</div><span>03</span><h3>За наши моменты</h3><p>Даже тишина с тобой звучит лучше любой музыки. Каждый миг становится нашим.</p></article>
+        <article class="card wide reveal"><div class="icon infinity">∞</div><span>04</span><h3>Просто за тебя</h3><p>Не за что-то одно. За твой смех, взгляд, мысли, характер — за всю Даяну целиком.</p></article>
+      </div>
+    </section>
+
+    <section class="counter-section">
+      <div class="big-heart reveal"><span>♥</span><div class="ring r1"></div><div class="ring r2"></div></div>
+      <p class="reveal">СКОЛЬКО РАЗ Я ВЫБЕРУ ТЕБЯ?</p><div class="number reveal">∞</div><h2 class="reveal">Во всех жизнях.<br>Во всех вселенных.</h2>
+    </section>
+
+    <section class="game-section" id="game">
+      <div class="section-head reveal"><p>02 / МАЛЕНЬКАЯ ИГРА</p><h2>Собери любовь<br><em>для Даяны</em></h2></div>
+      <div class="game-shell reveal">
+        <div class="game-top"><div><small>СЧЁТ</small><strong id="score">0</strong></div><p id="gameMessage">Поймай как можно больше сердечек за 20 секунд</p><div><small>ВРЕМЯ</small><strong id="timer">20</strong></div></div>
+        <div class="game-field" id="gameField"><div class="game-intro" id="gameIntro"><span>♥</span><h3>Готов любить?</h3><button id="startGame">Начать игру</button></div></div>
+      </div>
+    </section>
+
+    <section class="letter" id="letter">
+      <div class="letter-card reveal"><div class="stamp">Д<br><small>♡</small></div><p class="label">ЛИЧНО ДЛЯ ТЕБЯ</p><h2>Моя дорогая Даяна,</h2><p>ты — человек, с которым хочется делить не только праздники, но и самые обычные вторники. Ты делаешь мой мир мягче, светлее и гораздо красивее.</p><p>Я люблю то, как рядом с тобой время перестаёт спешить. Люблю твою нежность и силу, твои мечты и даже маленькие привычки.</p><p>Спасибо, что ты есть. Я хочу каждый день напоминать тебе: ты любима. Очень. По-настоящему.</p><div class="signature">С любовью, твой Роман Кудаев <span>♥</span></div></div>
+    </section>
+
+    <section class="finale"><p class="reveal">И ЕЩЁ ОДНА ВАЖНАЯ ВЕЩЬ…</p><h2 class="reveal">Я тебя<br><em>люблю.</em></h2><button id="heartBtn" class="heart-button reveal"><span>Нажми на сердце</span><b>♥</b></button><p class="secret" id="secret">Даяна, ты — моё самое лучшее совпадение ♡<small>Роман Кудаев</small></p><div id="loveBurst" class="love-burst"><div class="burst-ring"></div><div class="burst-message">Даяна <span>♥</span> Роман</div></div></section>
+  </main>
+  <div class="now-playing" id="nowPlaying"><i></i><div><small>СЕЙЧАС ИГРАЕТ</small><span>«Рядом с тобой» — оригинальная мелодия</span></div><div class="bars"><b></b><b></b><b></b><b></b></div></div>
+  <footer><span>Роман Кудаев</span><b>♥</b><span>Даяна Шкребко</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
